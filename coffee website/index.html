@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your coffee</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="images/logo.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-heart" id="heart-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    <div id="containerC" class="cart-items-container">
+    </div>
+
+</header>
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Digna's coffee</h3>
+        <p>Digna's coffee Corporation is an Dominican national chain of coffeehouses reserves headquartered Dominican Republic, San José De Ocoa. It is the Dominican Republic largest coffeehouse chain.</p>
+    </div>
+
+</section>
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>About</span> Us </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/about-img.jpeg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>what makes our coffee special?</h3>
+            <p>Our coffee is special because we make it full of love always thinking on giving you the best experience and every taste.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+
+
+
+<!-- menu section starts  -->
+
+<section class="menu" id="menu">
+
+    <h1 class="heading"> Our <span>Menu</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.XibnTSqaA_YTAqVmd0tHhAHaLH%26pid%3DApi&f=1&ipt=f2ba5ff25e446335d81436e34b0e5992d1d07b33aa9021a856c5d17e89f23cdd&ipo=images" alt="">
+            <h3>Peppermint Mocha</h3>
+            <div class="price">$18.99 <span>23.99</span></div>
+            <button id="btnMocha" class="btn">add to cart</button>
+        </div>
+
+        <div class="box">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.LHttABpOEVKsQY4DaPkTlAHaHa%26pid%3DApi&f=1&ipt=368ff76c2da982df88e7b31ddee824ab273f19871e139e8510379fbb87c94645&ipo=images" alt="">
+            <h3>White Chocolate Mocha</h3>
+            <div class="price">$15.99 <span>18.99</span></div>
+            <button id="btnWhite" class="btn">add to cart</button>
+        </div>
+
+        <div class="box">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ygfMqGzoiDdN-tk-6lXA3QHaEQ%26pid%3DApi&f=1&ipt=5c456c5f492b972520acc3996c836625226b3587f8892f954c9f8ed67d1f1757&ipo=images" alt="">
+            <h3>Expresso</h3>
+            <div class="price">$16.99 <span>21.99</span></div>
+            <button id="btnExpresso" class="btn">add to cart</button>
+        </div>
+
+        <div class="box">
+            <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.zastavki.com%2Fpictures%2F1600x1200%2F2009%2FFood_Drinks_Cappuccino_011978_.jpg&f=1&nofb=1&ipt=6a44d8ecba5f774252659d097f766af1357afc068b0ff055bece1ad04b43f82a&ipo=images" alt="">
+            <h3>Cappuccino</h3>
+            <div class="price">$14.99 <span>19.99</span></div>
+            <button id="btnCappu" class="btn">add to cart</butt>
+        </div>
+
+        <div class="box">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.HMvjkaiZ_LIpb8rcAXHv2wHaHZ%26pid%3DApi&f=1&ipt=7403dfa94d00c482fc922ba7e4bf1bc8f84e97ac3a8f371435b48eaeff38e5bc&ipo=images" alt="">
+            <h3>Caramel Macchiato</h3>
+            <div class="price">$13.99 <span>20.99</span></div>
+            <button id="btnCaramel" class="btn">add to cart</button>
+        </div>
+
+        <div class="box">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.M_EE3MuEhFT9ov5Lj5iz9AHaLL%26pid%3DApi&f=1&ipt=f2080f699239476bbd466714c72e7aaf58df4973d8158ae50317a029b9dbdcea&ipo=images" alt="">
+            <h3>Caffè Mocha</h3>
+            <div class="price">$22.99 <span>27.99</span></div>
+            <button id="btnCa" class="btn">add to cart</button>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- menu section ends -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> Our <span>products</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="image">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi5.walmartimages.com%2Fasr%2F77013a06-1417-47d0-a305-3f9d2279d0a1_1.30551b627cd18ea6fc868f7f681baf08.jpeg&f=1&nofb=1&ipt=7e9b4d12be11d74f035c7ff59b0401e3606212a986d26a7a108c513f27135345&ipo=images" alt="">
+            </div>
+            <div class="content">
+                <h3>Capresso EC100 Espresso Machine -</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$22.99 <span>$28.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="image">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.X0jvyV7_i9PO_ORghu7QmgHaHa%26pid%3DApi&f=1&ipt=b57a1585c13893402d27a2e9a7ca30ddcb44136870199e4503eaabc4ee47d633&ipo=images" alt="">
+            </div>
+            <div class="content">
+                <h3>Pleat Desktop Ceramic Mug - 14 fl oz</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$18.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="image">
+                <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fecx.images-amazon.com%2Fimages%2FI%2F512wuPExeeL._SY300_QL70_.jpg&f=1&nofb=1&ipt=06496376dec8a5da75db9e10c1d43674e6d42523f9733346118f4fbcf13ba6ec&ipo=images" alt="">
+            </div>
+            <div class="content">
+                <h3>Copper Band Stainless-Steel Tumbler - 16 fl oz</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$16.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> customer's <span>review</span> </h1>
+
+    <div class="box-container">
+
+       
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>A Place to Be. The space I chose was Digna's coffee. Never in my life would I have imagined that I would be interested in writing a paper about this. I am currently traveling and it has been a place that I have been frequently visiting to sit down and take care of my studies. I am an avid coffee drinker also and love to sip on a beverage and take care of what I need to take care of. It is peaceful, although sometimes chaotic. I enjoy being able to sit down and do my work. I believe it is a great place for students like myself to sit down and be productive.</p>
+            <img src="images/Michael.jpeg" class="user" alt="">
+            <h3>Michael Del Jesús</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>I have been going to this store regularly for years. The last year has been almost daily. It is a very busy store but they move us through quickly. It seems like the employees all get along and do their jobs efficiently and curiously. One day a slight mistake was made and could have been my error due to the fact I usually have a large order, but a very nice young lady Stephanie took care of it, with a smile. If I need coffee I will wait to drive to this store. The manager Elaina is always working with a smile. Maybe that is why her employees treat us all that way. These days it is hard to find good customer service but to find exceptional service is even better.</p>
+            <img src="images/Samil.jpg" class="user" alt="">
+            <h3>Samil Soto</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>  
+        </div>
+
+        </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+
+    <div class="row">
+
+
+        <form action="">
+            <h3>CONTACT US</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input id="name" type="text" placeholder="name">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input id="email" type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input id="number" type="number" placeholder="number">
+            </div>
+            <input id="button" type="submit" value="contact now" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="share">
+        <a target="_blank" href="https://www.instagram.com/" class="fab fa-facebook-f"></a>
+        <a target="_blank" href="https://www.instagram.com/" class="fab fa-twitter"></a>
+        <a target="_blank" href="https://web.facebook.com/" class="fab fa-instagram"></a>
+        <a target="_blank" href="https://github.com/" class="fab fa-github"></a>
+
+
+    </div>
+
+  
+    <div class="credit">created by <span>Alam Villar</span> | all rights reserved</div>
+
+</section>
+ 
+<!-- footer section ends -->
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+<script src="js/AddCart.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
